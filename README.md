@@ -39,8 +39,6 @@ Tooling       WebContainers · Monaco Editor · xterm.js
 
 ## Currently
 
-## Currently
-
 - Exploring virtualization internals, IPC, and execution isolation
 - Building browser-native and serverless developer platforms
 - Interested in infrastructure, runtime, and platform engineering
