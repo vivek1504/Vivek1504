@@ -18,7 +18,7 @@ In-browser IDE powered by WebContainers. Write, run, and preview React, Vue, Sve
 
 > `WebContainers` · `React` · `Monaco Editor` · `xterm.js` · `TypeScript`
 
-### [spark](https://github.com/vivek1504/spark) ·  [Live](https://forge.vivekjadhav.xyz)
+### [Spark](https://github.com/vivek1504/spark) ·  [Live](https://spark.vivekjadhav.xyz)
 AI-powered website builder. Natural language prompts → fully functional web apps, running entirely in the browser with live editing and instant previews.
 
 > `TypeScript` · `AI` · `Browser-native`
