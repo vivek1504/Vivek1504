@@ -19,7 +19,7 @@ In-browser IDE powered by WebContainers. Write, run, and preview React, Vue, Sve
 > `WebContainers` · `React` · `Monaco Editor` · `xterm.js` · `TypeScript`
 
 ### [Spark](https://github.com/vivek1504/spark) ·  [Live](https://spark.vivekjadhav.xyz)
-AI-powered website builder. Natural language prompts → fully functional web apps, running entirely in the browser with live editing and instant previews.
+Browser-native AI website builder with live editing and instant preview generation entirely on the client side.
 
 > `TypeScript` · `AI` · `Browser-native`
 
@@ -28,19 +28,22 @@ AI-powered website builder. Natural language prompts → fully functional web ap
 ## Stack
 
 ```
-Languages   TypeScript · JavaScript · Bash
-Infra        Firecracker · Linux · KVM · Docker
-Frontend    React · Vite · TailwindCSS · WebContainers
-Runtime     Node.js · vsock · Unix domain sockets
+Languages     TypeScript · JavaScript · Bash
+Systems       Linux · KVM · Firecracker · vsock · Unix sockets
+Backend       Node.js · Docker
+Frontend      React · Vite · TailwindCSS
+Tooling       WebContainers · Monaco Editor · xterm.js
 ```
 
 ---
 
 ## Currently
 
-- Deepening systems knowledge — OS virtualization, scheduling, IPC
-- Building tools I'd actually want to use
-- Open to interesting infrastructure / devtools / platform engineering roles
+## Currently
+
+- Exploring virtualization internals, IPC, and execution isolation
+- Building browser-native and serverless developer platforms
+- Interested in infrastructure, runtime, and platform engineering
 
 ---
 
