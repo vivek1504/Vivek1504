@@ -28,7 +28,7 @@ Browser-native AI website builder with live editing and instant preview generati
 ## Stack
 
 ```
-Languages     TypeScript · JavaScript · Bash
+Languages     TypeScript · JavaScript
 Systems       Linux · KVM · Firecracker · vsock · Unix sockets
 Backend       Node.js · Docker
 Frontend      React · Vite · TailwindCSS
