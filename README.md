@@ -13,12 +13,17 @@ Firecracker microVM-based execution platform built from scratch. Functions run i
 
 > `Firecracker` · `Node.js` · `vsock` · `KVM` · `TypeScript`
 
+### [NagarSeva](https://github.com/vivek1504/NagarSeva)
+AI-powered civic issue monitoring platform for municipal corporations with automated pothole and garbage detection, role-based workflows, and mobile apps for field operations.
+
+> `YOLOv8` · `FastAPI` · `React` · `React Native` · `PostgreSQL`
+
 ### [Forge](https://github.com/vivek1504/Forge) · [Live](https://forge.vivekjadhav.xyz)
 In-browser IDE powered by WebContainers. Write, run, and preview React, Vue, Svelte, and Node.js projects with zero local setup — Monaco editor, integrated terminal, live HMR preview.
 
 > `WebContainers` · `React` · `Monaco Editor` · `xterm.js` · `TypeScript`
 
-### [Spark](https://github.com/vivek1504/spark) ·  [Live](https://spark.vivekjadhav.xyz)
+### [Spark](https://github.com/vivek1504/spark) · [Live](https://spark.vivekjadhav.xyz)
 Browser-native AI website builder with live editing and instant preview generation entirely on the client side.
 
 > `TypeScript` · `AI` · `Browser-native`
@@ -27,10 +32,10 @@ Browser-native AI website builder with live editing and instant preview generati
 
 ## Stack
 
-```
+```txt
 Languages     TypeScript · JavaScript
 Systems       Linux · KVM · Firecracker · vsock · Unix sockets
-Backend       Node.js · Docker
+Backend       Node.js · Docker · Express
 Frontend      React · Vite · TailwindCSS
 Tooling       WebContainers · Monaco Editor · xterm.js
 ```
