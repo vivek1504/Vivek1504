@@ -9,7 +9,7 @@ Currently exploring the internals of serverless platforms, browser-based runtime
 ## Projects
 
 ### [serverless-runtime](https://github.com/vivek1504/serverless-runtime)
-Firecracker microVM-based execution platform built from scratch. Functions run in isolated VMs, cold starts optimized via snapshot restore to ~1ms, throughput benchmarked at ~5K req/sec. Comparable in design to AWS Lambda's execution model.
+Firecracker microVM-based execution platform built from scratch. Functions run in isolated VMs, cold starts optimized via snapshot restore to ~2ms, throughput benchmarked at ~3.5K req/sec. Comparable in design to AWS Lambda's execution model.
 
 > `Firecracker` · `Node.js` · `vsock` · `KVM` · `TypeScript`
 
