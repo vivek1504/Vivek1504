@@ -23,6 +23,13 @@ In-browser IDE powered by WebContainers. Write, run, and preview React, Vue, Sve
 
 > `WebContainers` · `React` · `Monaco Editor` · `xterm.js` · `TypeScript`
 
+### [EHR Annotation Platform](https://github.com/vivek1504/EHR)
+
+Clinical NLP annotation platform for EHR data. Automatically extracts medical entities from clinical notes using LLMs and enables human-in-the-loop review workflows for healthcare AI datasets.
+
+> `TypeScript` · `Hono` · `PostgreSQL` · `Prisma` · `Groq LLM`
+
+
 ### [Spark](https://github.com/vivek1504/spark) · [Live](https://spark.vivekjadhav.xyz)
 Browser-native AI website builder with live editing and instant preview generation entirely on the client side.
 
