@@ -11,6 +11,7 @@ Currently exploring the internals of serverless platforms, browser-based runtime
 ### [Agent-Sandbox](https://github.com/vivek1504/serverless-runtime)
 Give any AI agent its own disposable Linux machine. Firecracker microVM sandboxing with millisecond boot times, full network access, and native MCP support.
 
+> `Firecracker` · `MCP` · `vsock` · `KVM` · `Agents-Sandbox`
 
 ### [serverless-runtime](https://github.com/vivek1504/serverless)
 Firecracker microVM-based execution platform built from scratch. Functions run in isolated VMs, cold starts optimized via snapshot restore to ~2ms, throughput benchmarked at ~3.5K req/sec. Comparable in design to AWS Lambda's execution model.
