@@ -8,13 +8,13 @@ Currently exploring the internals of serverless platforms, browser-based runtime
 
 ## Projects
 
-### [Agent-Sandbox](https://github.com/vivek1504/serverless-runtime)
-Give any AI agent its own disposable Linux machine. Firecracker microVM sandboxing with millisecond boot times, full network access, and native MCP support.
+### [Agent-Sandbox](https://github.com/vivek1504/agent-sandbox)
+Give any AI agent its own disposable Linux machine. Firecracker microVM sandboxing with millisecond snapshot restore, per-VM network isolation with egress controls, and native MCP support.
 
 > `Firecracker` · `MCP` · `vsock` · `KVM` · `Agents-Sandbox`
 
-### [serverless-runtime](https://github.com/vivek1504/serverless)
-Firecracker microVM-based execution platform built from scratch. Functions run in isolated VMs, cold starts optimized via snapshot restore to ~2ms, throughput benchmarked at ~3.5K req/sec. Comparable in design to AWS Lambda's execution model.
+### [serverless](https://github.com/vivek1504/serverless)
+Firecracker microVM-based function execution platform — the v1 codebase that evolved into Agent-Sandbox. Functions run in isolated VMs with warm-pool reuse and snapshot restore, scheduled by a hand-written deficit round-robin scheduler.
 
 > `Firecracker` · `Node.js` · `vsock` · `KVM` · `TypeScript`
 
@@ -30,15 +30,15 @@ In-browser IDE powered by WebContainers. Write, run, and preview React, Vue, Sve
 
 ### [EHR Annotation Platform](https://github.com/vivek1504/EHR)
 
-Clinical NLP annotation platform for EHR data. Automatically extracts medical entities from clinical notes using LLMs and enables human-in-the-loop review workflows for healthcare AI datasets.
+LLM-assisted annotation backend for EHR data. Extracts medical entities from clinical notes via LLM inference and supports human-in-the-loop review workflows for healthcare AI datasets.
 
 > `TypeScript` · `Hono` · `PostgreSQL` · `Prisma` · `Groq LLM`
 
 
 ### [Spark](https://github.com/vivek1504/spark) · [Live](https://spark.vivekjadhav.xyz)
-Browser-native AI website builder with live editing and instant preview generation entirely on the client side.
+AI website builder — natural-language prompts become LLM-generated React apps, previewed instantly in the browser via WebContainers.
 
-> `TypeScript` · `AI` · `Browser-native`
+> `TypeScript` · `WebContainers` · `Groq` · `Clerk`
 
 ---
 
